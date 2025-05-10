@@ -1,0 +1,8 @@
+git diff HEAD
+git log -- .env
+
+git grep 'PRIVATE_KEY' $(git rev-list --all)
+
+
+
+https://hardhat.org/hardhat-network/docs/guides/forking-other-networks
